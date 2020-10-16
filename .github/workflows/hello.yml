@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: Say Hello to Me
-        uses: cgironalas/github_actions@v1
+        uses: cgironalas/github_actions@v2
         with:
           who-to-greet: "Carlos"
