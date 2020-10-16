@@ -1,0 +1,16 @@
+name: Say Hello
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello to Me
+        uses: cgironalas/github_actions@v1
+        with:
+          who-to-greet: "Carlos"
